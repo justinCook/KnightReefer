@@ -14,15 +14,29 @@ border-color: transparent;
 height: 12%;
 }
 
+.navbar-inverse .navbar-brand{
+	font-size: 10px;
+}
+
+.navbar button{
+	float: right;
+}
+
 .jumbotron {
 		background: url(../img/herobg.png) no-repeat top center;
-		padding: 38% 0 14% 0;
+		padding: 35% 0 18% 0;
 		background-size: 100%;
 }
 
 .jumbotron p{
 			color: #ffffff;
-		font-size: 26px;
+		font-size: 14px;
+		font-weight: 200;
+}
+
+.jumbotron .container{
+			background: #2c264a;
+			padding: 10px;
 }
 
 
@@ -40,16 +54,20 @@ height: 12%;
 }
 .booking {
 padding: 15px 20px;
-width: 75%;
-float: right;
+/*width: 75%;
+float: right;*/
 background: white;
-border: 15px solid rgba(0, 0, 0, 0.3);
--moz-background-clip: border;
+/*border: 15px solid rgba(0, 0, 0, 0.3);
+*/-moz-background-clip: border;
 -webkit-background-clip: border;
 background-clip: border-box;
 -moz-background-clip: padding;
 -webkit-background-clip: padding;
 background-clip: padding-box;
+}
+
+.booking h4{
+	text-align: center;
 }
 
 .img-responsive {
@@ -61,8 +79,8 @@ margin: 0 auto;
 
 form.input{
 padding: 15px 20px 100px 20px;
-float: right;
-background: white;
+/*float: right;
+*/background: white;
 -moz-background-clip: border;
 -webkit-background-clip: border;
 background-clip: border-box;
@@ -77,8 +95,8 @@ border-radius: 2px;
 font: 13px 'Pt Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
 color: #777;
 margin: 0;
-width: 210px;
-display: block;
+/*width: 210px;
+*/display: block;
 margin-bottom: 20px;
 background: #fff;
 }
@@ -93,11 +111,25 @@ border-radius: 2px;
 font: 13px 'Pt Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
 color: #777;
 margin: 0;
-width: 210px;
+width: 100%;
 max-width: 100%;
 display: block;
 margin-bottom: 20px;
-background: #fff;}
+background: #fff;
+}
+
+button[type="submit"]{
+	background: #242323;
+	color: #ffffff;
+	border:none;
+	border-radius:20px;
+	padding: 7px 15px;
+	text-transform: uppercase;
+}
+
+form span {
+	text-align: center;
+}
 
 .symbol-container
 {
@@ -113,4 +145,63 @@ padding: 10px;
 
 .copyright {
 	color:white;
+}
+
+@media (min-width: 768px){
+body{
+	margin-top: 9%;
+}
+
+.jumbotron {
+		padding: 38% 0 20% 0;
+		background-size: 100%;
+}
+
+.jumbotron p{
+			color: #ffffff;
+		font-size: 18px;
+		font-weight: 200;
+}
+
+.jumbotron .container{
+			background: transparent;
+}
+}
+
+
+@media (min-width: 992px){
+body{
+	margin-top: 9%;
+}
+
+.jumbotron {
+		padding: 36% 0 18% 0;
+		background-size: 100%;
+}
+
+.jumbotron p{
+			color: #ffffff;
+		font-size: 20px;
+		font-weight: 200;
+}
+}
+
+@media (min-width: 1200px){
+
+.navbar-inverse {
+height: 200px;
+background-size:contain;
+background-repeat: repeat-x;
+}
+.jumbotron {
+		padding: 38% 0 14% 0;
+		background-size: 100%;
+}
+
+.jumbotron p{
+			color: #ffffff;
+		font-size: 26px;
+		font-weight: 200;
+}
+
 }

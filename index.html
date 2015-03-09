@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="http://getbootstrap.com/favicon.ico">
-
-    <title>Jumbotron Template for Bootstrap</title>
+<!--     <link rel="icon" href="http://getbootstrap.com/favicon.ico">
+ -->
+    <title>Knight Refrigerated</title>
 
     <!-- Bootstrap core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -34,10 +34,21 @@
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand" href="http://getbootstrap.com/examples/jumbotron/#"></a>
+          <a class="navbar-brand" href="http://getbootstrap.com/examples/jumbotron/#">CALL A RECRUITER TODAY
+888-888-8888</a>
         </div>
-        <div id="navbar" class="navbar-collapse collapse">
-        </div><!--/.navbar-collapse -->
+         <div id="navbar" class="navbar-collapse">
+          <!-- <form class="navbar-form navbar-right">
+            <div class="form-group">
+              <input type="text" placeholder="Email" class="form-control">
+            </div>
+            <div class="form-group">
+              <input type="password" placeholder="Password" class="form-control">
+            </div> -->
+            <button type="submit" class="btn btn-success">Apply Now</button>
+            
+          <!--</form>
+        </div> --><!--/.navbar-collapse -->
       </div>
     </nav>
 
@@ -111,7 +122,7 @@
         <div class="booking">
         <h4>REQUEST A CALL BACK</h4>
 
-        <p>Fill out the form below and Knight Transportation will call you back shortly</p>
+        <p>Fill out the short form and a Knight Recruiter will be in touch shortly</p>
          <form class="input" action="engine/clientProcessor.php<?php echo '?zal=' . htmlspecialchars($_GET["zal"]) . '&utm_campaign=' . htmlspecialchars($_GET["utm_campaign"]); ?>" method="post" name="referralForm" onSubmit="MM_validateForm('First name','','R','Last name','','R','Email address','','RisEmail','Primary phone','','RisNum');return document.MM_returnValue">
 
                     <!-- php hidden vars -->
@@ -206,18 +217,18 @@
                         </center>
             
 
-                <span class="phone-only">
-                <button input name="Submit" type="submit" value="Submit" onClick="_gaq.push(['_trackPageview', '/jobs/activity/shortform_phn']);">SUBMIT</button>
+                <span class="visible-sm visible-xs">
+                <button input name="Submit" type="submit" value="Submit" onClick="_gaq.push(['_trackPageview', '/jobs/activity/shortform_phn']);">Apply Now</button>
                 </span>
                 <!-- end visible-phone -->
                 <!-- start visible-tablet -->
-                <span class="tablet-only">
-                <button input name="Submit" type="submit" value="Submit" onClick="_gaq.push(['_trackPageview', '/jobs/activity/shortform_tab']);">SUBMIT</button>
+                <span class="visible-md">
+                <button input name="Submit" type="submit" value="Submit" onClick="_gaq.push(['_trackPageview', '/jobs/activity/shortform_tab']);">Apply Now</button>
                 </span>
                 <!-- end visible-tablet -->
                 <!-- start visible-desktop -->
-                <span class="desktop-only">
-                <button input name="Submit" type="submit" value="Submit" onClick="_gaq.push(['_trackPageview', '/jobs/activity/shortform_dsk']);">SUBMIT</button>
+                <span class="visible-lg">
+                <button input name="Submit" type="submit" value="Submit" onClick="_gaq.push(['_trackPageview', '/jobs/activity/shortform_dsk']);">Apply Now</button>
                 </span>
             
             </form>
