@@ -1,19 +1,43 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
-  
+  margin-top: 12%; 
 }
 p {
 	text-align:center;
 }
 
 .navbar-inverse {
-background-color: #121131;
+	background: url(../img/header_bg.jpg) no-repeat top center;
+/*background-color: #121131;
+*/background-size: 100%;
+border-color: transparent;
+height: 12%;
 }
 
 .jumbotron {
-
+		background: url(../img/herobg.png) no-repeat top center;
+		padding: 38% 0 14% 0;
+		background-size: 100%;
 }
 
+.jumbotron p{
+			color: #ffffff;
+		font-size: 26px;
+}
+
+
+#mainContent .btn{
+	background: #4c4495;
+	border-radius: 0;
+	text-transform: uppercase;
+	padding: 15px 70px;
+	margin-bottom: 40px;
+}
+
+#mainContent #CTA{
+	float: none;
+	margin: 0px auto 35px auto;
+}
 .booking {
 padding: 15px 20px;
 width: 75%;
