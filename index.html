@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<!-- saved from url=(0043)http://getbootstrap.com/examples/jumbotron/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="http://getbootstrap.com/favicon.ico">
+
+    <title>Jumbotron Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+<!--     <link href="jumbotron.css" rel="stylesheet">
+ -->
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+        <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="http://getbootstrap.com/examples/jumbotron/#">Project name</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        
+      </div>
+    </div>
+
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+         <div class="col-md-12 grid_footer">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fringilla diam eget volutpat finibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin quis eros eget nulla auctor sodales vitae nec magna. Duis rutrum vitae arcu nec imperdiet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque fringilla diam eget volutpat finibus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Proin quis eros eget nulla auctor sodales vitae nec magna. Duis rutrum vitae arcu nec imperdiet.</p>
+              </div> 
+             
+        <div class="col-md-8">
+          
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+      <div class="symbol-container col-md-6">     
+          <div class="row">
+              <div class="col-md-6">   
+              <p>Donec id elit non mi porta gravida at eget metus.</p>
+            </div>
+
+            <div class="col-md-6">  
+              <p>Donec id elit non mi porta gravida at eget metus.</p>
+            </div>
+
+          </div> 
+
+           <div class="row">
+              <div class="col-md-6">
+              <p>Donec id elit non mi porta gravida at eget metus.</p>
+            </div>
+
+            <div class="col-md-6">
+              <p>Donec id elit non mi porta gravida at eget metus.</p>
+            </div>
+
+          </div>
+
+
+           <div class="row">
+              <div class="col-md-6">
+              <p>Donec id elit non mi porta gravida at eget metus.</p>
+            </div>
+
+            <div class="col-md-6">
+              <p>Donec id elit non mi porta gravida at eget metus.</p>
+            </div>
+
+          </div> 
+       </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="booking">
+         <form class="input" action="engine/clientProcessor.php<?php echo '?zal=' . htmlspecialchars($_GET["zal"]) . '&utm_campaign=' . htmlspecialchars($_GET["utm_campaign"]); ?>" method="post" name="referralForm" onSubmit="MM_validateForm('First name','','R','Last name','','R','Email address','','RisEmail','Primary phone','','RisNum');return document.MM_returnValue">
+
+                    <!-- php hidden vars -->
+                    <input type="hidden" name="utm_source" value="<?php echo $_GET['utm_source']; ?>">  
+                    <input type="hidden" name="utm_medium" value="<?php echo $_GET['utm_medium']; ?>">  
+                    <input type="hidden" name="utm_campaign" value="<?php echo $_GET['utm_campaign']; ?>">  
+                    <input type="hidden" name="zal" value="<?php echo $_GET['zal']; ?>">  
+                    <input type="hidden" name="id" value="<?php echo $_GET['id']; ?>"> 
+
+                      <label>First Name</label>
+                      <input placeholder="First Name" name="firstname" type="text" value="" id="firstname" size="25" maxlength="50" required>
+                      <label>Last Name</label>
+                      <input placeholder="Last Name" name="lastname" type="text" value="" id="lastname" size="25" maxlength="50" required>
+                      <label>Email</label>
+                      <input placeholder="Your Email" name="email" type="text" value="" id="email" size="25" maxlength="50" required>
+
+                      <label>State</label>
+                        <select name="state" id="state" title="state" style="width:100%;" required>
+                            <option value="None">State</option>
+                            <option value="Alabama">Alabama</option>
+                            <option value="Alaska">Alaska</option>
+                            <option value="Arizona">Arizona</option>
+                            <option value="Arkansas">Arkansas</option>
+                            <option value="California">California</option>
+                            <option value="Colorado">Colorado</option>
+                            <option value="Connecticut">Connecticut</option>
+                            <option value="Delaware">Delaware</option>
+                            <option value="Florida">Florida</option>
+                            <option value="Georgia">Georgia</option>
+                            <option value="Hawaii">Hawaii</option>
+                            <option value="Idaho">Idaho</option>
+                            <option value="Illinois">Illinois</option>
+                            <option value="Indiana">Indiana</option>
+                            <option value="Iowa">Iowa</option>
+                            <option value="Kansas">Kansas</option>
+                            <option value="Kentucky">Kentucky</option>
+                            <option value="Louisiana">Louisiana</option>
+                            <option value="Maine">Maine</option>
+                            <option value="Maryland">Maryland</option>
+                            <option value="Massachusetts">Massachusetts</option>
+                            <option value="Michigan">Michigan</option>
+                            <option value="Minnesota">Minnesota</option>
+                            <option value="Mississippi">Mississippi</option>
+                            <option value="Missouri">Missouri</option>
+                            <option value="Montana">Montana</option>
+                            <option value="Nebraska">Nebraska</option>
+                            <option value="Nevada">Nevada</option>
+                            <option value="New Hampshire">New Hampshire</option>
+                            <option value="New Jersey">New Jersey</option>
+                            <option value="New Mexico">New Mexico</option>
+                            <option value="New York">New York</option>
+                            <option value="North Carolina">North Carolina</option>
+                            <option value="North Dakota">North Dakota</option>
+                            <option value="Ohio">Ohio</option>
+                            <option value="Oklahoma">Oklahoma</option>
+                            <option value="Oregon">Oregon</option>
+                            <option value="Pennsylvania">Pennsylvania</option>
+                            <option value="Rhode Island">Rhode Island</option>
+                            <option value="South Carolina">South Carolina</option>
+                            <option value="South Dakota">South Dakota</option>
+                            <option value="Tennessee">Tennessee</option>
+                            <option value="Texas">Texas</option>
+                            <option value="Utah">Utah</option>
+                            <option value="Vermont">Vermont</option>
+                            <option value="Virginia">Virginia</option>
+                            <option value="Washington">Washington</option>
+                            <option value="West Virginia">West Virginia</option>
+                            <option value="Wisconsin">Wisconsin</option>
+                            <option value="Wyoming">Wyoming</option>
+                        </select>
+
+                        <label>Zip</label>
+                        <input placeholder="Zip Code" name="zip" type="text" value="" id="zip" size="25" maxlength="50" required>
+
+                        <label>Phone Number</label>
+                        <input placeholder="Phone Number" name="phone" type="text" value="" id="phone" size="25" maxlength="50" required>
+
+                        <center>
+            <label></label>
+            <select name="cdl-a" id="cdl-a" title="cdl-a" style="width:80%;"  required>
+                        <option value="None">Do You Have a CDL-A License?</option>
+                            <option value="Yes">Yes</option> 
+                            <option value="No">No</option>                                   
+                        </select>
+          
+                        <label></label>
+                        <select name="interest" id="interest" title="interest" style="width:80%;" required>
+                        <option value="None">Driving job your interested in</option>
+                            <option value="Company Driver">Company Driver</option> 
+                            <option value="Owner Operator">Owner Operator</option>                                   
+                        </select>
+                        </center>
+            
+
+                <span class="phone-only">
+                <button input name="Submit" type="submit" value="Submit" onClick="_gaq.push(['_trackPageview', '/jobs/activity/shortform_phn']);">SUBMIT</button>
+                </span>
+                <!-- end visible-phone -->
+                <!-- start visible-tablet -->
+                <span class="tablet-only">
+                <button input name="Submit" type="submit" value="Submit" onClick="_gaq.push(['_trackPageview', '/jobs/activity/shortform_tab']);">SUBMIT</button>
+                </span>
+                <!-- end visible-tablet -->
+                <!-- start visible-desktop -->
+                <span class="desktop-only">
+                <button input name="Submit" type="submit" value="Submit" onClick="_gaq.push(['_trackPageview', '/jobs/activity/shortform_dsk']);">SUBMIT</button>
+                </span>
+            
+            </form>
+        </div>
+      </div>
+    </div>
+
+      <hr>
+
+      
+    </div> <!-- /container -->
+    <footer>
+     <p class="copyright">© Company 2014</p>
+    </footer>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+  
+
+</body></html>

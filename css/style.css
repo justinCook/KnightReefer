@@ -1,0 +1,85 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  
+}
+p {
+	text-align:center;
+}
+
+.navbar-inverse {
+background-color: #121131;
+}
+
+.jumbotron {
+
+}
+
+.booking {
+padding: 15px 20px;
+width: 75%;
+float: right;
+background: white;
+border: 15px solid rgba(0, 0, 0, 0.3);
+-moz-background-clip: border;
+-webkit-background-clip: border;
+background-clip: border-box;
+-moz-background-clip: padding;
+-webkit-background-clip: padding;
+background-clip: padding-box;
+}
+
+form.input{
+padding: 15px 20px 100px 20px;
+float: right;
+background: white;
+-moz-background-clip: border;
+-webkit-background-clip: border;
+background-clip: border-box;
+-moz-background-clip: padding;
+-webkit-background-clip: padding;
+background-clip: padding-box;
+padding: 6px 4px;
+outline: none;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+border-radius: 2px;
+font: 13px 'Pt Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+color: #777;
+margin: 0;
+width: 210px;
+display: block;
+margin-bottom: 20px;
+background: #fff;
+}
+
+input[type="text"], input[type="password"], input[type="email"], input[type="tel"], textarea, select {
+border: 1px solid #ccc;
+padding: 6px 4px;
+outline: none;
+-moz-border-radius: 2px;
+-webkit-border-radius: 2px;
+border-radius: 2px;
+font: 13px 'Pt Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+color: #777;
+margin: 0;
+width: 210px;
+max-width: 100%;
+display: block;
+margin-bottom: 20px;
+background: #fff;}
+
+.symbol-container
+{
+	margin: 0 auto;
+	float: none;
+}
+
+footer{
+background-color: #4d4393;
+padding: 10px;
+
+}
+
+.copyright {
+	color:white;
+}
