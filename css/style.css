@@ -28,6 +28,13 @@ background-clip: border-box;
 background-clip: padding-box;
 }
 
+.img-responsive {
+display: block;
+max-width: 50%;
+/* height: auto; */
+margin: 0 auto;
+}
+
 form.input{
 padding: 15px 20px 100px 20px;
 float: right;
