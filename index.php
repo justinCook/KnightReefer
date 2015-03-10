@@ -205,14 +205,14 @@
                         <center>
             <label></label>
             <select name="cdl-a" id="cdl-a" title="cdl-a" style="width:80%;"  required>
-                        <option value="None">Do You Have a CDL-A License?</option>
+                            <option value="">Do You Have a CDL-A License?</option>
                             <option value="Yes">Yes</option> 
                             <option value="No">No</option>                                   
                         </select>
           
                         <label></label>
                         <select name="interest" id="interest" title="interest" style="width:80%;" required>
-                        <option value="None">Driving job your interested in</option>
+                            <option value="">Driving job your interested in</option>
                             <option value="Company Driver">Company Driver</option> 
                             <option value="Owner Operator">Owner Operator</option>                                   
                         </select>
@@ -242,7 +242,7 @@
       
     </div> <!-- /container -->
     <footer>
-     <p class="copyright">&copy; 2015 Knight Transportation  All Rights Reserved. | Privacy Policy</p>
+     <p class="copyright">&copy; 2015 Knight Transportation All Rights Reserved. | <a href="#">Privacy Policy</a></p>
     </footer>
 
     <!-- Bootstrap core JavaScript

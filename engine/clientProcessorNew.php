@@ -16,7 +16,7 @@ $group_inputs = array();
 
 /* Start Building the Array and filling it with data */
 // Client needs to always be the name of the client you have stored in the database
-$group_inputs['client'] = 'Cardinal / Greatwide Logistics';
+$group_inputs['client'] = 'Knight Transportation';
 $group_inputs['ClientEmail'] = 'cmcgann@group1201.com';
 
 
