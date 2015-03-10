@@ -14,9 +14,6 @@ border-color: transparent;
 height: 12%;
 }
 
-.navbar-inverse .navbar-brand{
-	font-size: 10px;
-}
 
 .navbar button{
 	float: right;
@@ -39,7 +36,6 @@ height: 12%;
 			padding: 10px;
 }
 
-
 #mainContent .btn{
 	background: #4c4495;
 	border-radius: 0;
@@ -52,6 +48,7 @@ height: 12%;
 	float: none;
 	margin: 0px auto 35px auto;
 }
+
 .booking {
 padding: 15px 20px;
 /*width: 75%;
@@ -71,9 +68,6 @@ background-clip: padding-box;
 }
 
 .img-responsive {
-display: block;
-max-width: 50%;
-/* height: auto; */
 margin: 0 auto;
 }
 
@@ -164,7 +158,7 @@ body{
 }
 
 .jumbotron .container{
-			background: transparent;
+			background: #2c264a;
 }
 }
 
@@ -184,6 +178,31 @@ body{
 		font-size: 20px;
 		font-weight: 200;
 }
+
+.jumbotron .container{
+			background: transparent;
+}
+
+.navbar-inverse .container{
+	margin-top: 4%;
+	
+}
+
+.navbar-header a.navbar-brand{
+	font-size: 18px;
+	text-align: center;
+	color: #ffffff;
+	padding-top: 0px;
+}
+
+.navbar-header a.navbar-brand:hover{
+	color: #e1e1e1;
+}
+
+.navbar button{
+	border: 1px solid #464646;
+}
+
 }
 
 @media (min-width: 1200px){
@@ -193,6 +212,8 @@ height: 200px;
 background-size:contain;
 background-repeat: repeat-x;
 }
+
+
 .jumbotron {
 		padding: 38% 0 14% 0;
 		background-size: 100%;
